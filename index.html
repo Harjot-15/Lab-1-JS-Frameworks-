@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Viewer</title>
+  <style>
+    #fileContent {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 20px;
+      height: 400px;
+      overflow-y: auto;
+      white-space: pre-wrap; /* Preserve whitespace */
+    }
+    button {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>File Viewer</h1>
+  <button id="openFileButton">Open File</button>
+  <button id="loadDefaultButton">Load Default File</button>
+  <div id="fileContent">File content will be displayed here.</div>
+  <script src="renderer.js"></script>
+</body>
+</html>
