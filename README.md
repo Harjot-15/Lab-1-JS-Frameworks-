@@ -26,7 +26,13 @@ C:\MY\CMPG\Javascript Frameworks\Lab 1
    ```bash
    npm install
    ```
+3 **Install Dependencies**:
 
+If Electron is not installed already, install it using:
+
+```bash
+npm install electron --save-dev
+```
 3. **Run the Application**:
    ```bash
    npm start
